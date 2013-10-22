@@ -1,0 +1,9 @@
+<?php
+
+return array(
+    'popup' => array(
+        'layout' => array(
+            'view' => 'gmaps::enhancer/popup',
+        ),
+    ),
+);

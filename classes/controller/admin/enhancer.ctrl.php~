@@ -1,0 +1,15 @@
+<?php
+
+namespace Gmaps;
+
+class Controller_Admin_Enhancer extends \Nos\Controller_Admin_Enhancer
+{
+
+    public function action_save(array $args = null)
+    {
+        if (empty($args)) {
+            $args = $_POST;
+        }
+        parent::action_save($args);
+    }
+}
