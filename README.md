@@ -14,5 +14,5 @@ Licensed under [GNU Affero General Public License v3](http://www.gnu.org/license
 
 Add the folder Gmpas into your local/application folder
 
-Add the script \<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false">
+Add the script \<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 at the end of the file noviusos/framework/views/admin/noviusos.view.php
