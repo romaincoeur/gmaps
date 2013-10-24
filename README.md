@@ -16,3 +16,6 @@ Add the folder Gmpas into your local/application folder
 
 Add the script \<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"> \</script>
 at the end of the file noviusos/framework/views/admin/noviusos.view.php
+
+One last thing to do is to make shure that your css does not set the value max-width of img to 100%.
+If you are using noviusos_templates_basic, it is set in base.css
