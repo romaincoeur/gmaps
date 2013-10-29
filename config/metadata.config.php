@@ -23,14 +23,14 @@ return array(
     ),
     // Enhancer configuration sample
     'enhancers' => array(
-        'osm' => array( // key must be defined
+        'gmaps' => array( // key must be defined
             'title' => __('Google Maps'),
             'desc'  => '',
             'enhancer' => 'gmaps/front/main',
             'dialog' => array(
                 'contentUrl' => 'admin/gmaps/enhancer/popup',
-                'width' => 600,
-                'height' => 750,
+                'width' => 800,
+                'height' => 500,
                 'ajax' => true,
             ),
         ),
